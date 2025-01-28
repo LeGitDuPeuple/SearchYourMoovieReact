@@ -1,0 +1,41 @@
+.moovieContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  
+}
+
+.input-container{
+padding: 15px;
+}
+
+.input-container input {
+    border-radius: 0.8rem;
+    background: #23272f;
+    box-shadow:
+      inset 5px 5px 10px #0e1013,
+      inset -5px -5px 10px #383e4b,
+      0px 0px 50px rgba(255, 212, 59, 0), /* Moins étendu */
+      0px 0px 50px rgba(255, 102, 0, 0);  /* Moins étendu */
+    width: 100%;
+    flex-basis: 100%;
+    padding: 0.4rem; /* Moins haut */
+    border: none;
+    border: 1px solid transparent;
+    color: white;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .input-container input:focus {
+    border: 1px solid #ffd43b;
+    outline: none;
+    box-shadow:
+      inset 0px 0px 4px rgba(255, 102, 0, 0.2), /* Légèrement visible */
+      inset 0px 0px 4px rgba(255, 212, 59, 0.2),
+      0px 0px 15px rgba(255, 212, 59, 0.2), /* Effet un peu plus large */
+      0px 0px 15px rgba(255, 102, 0, 0.2); /* Plus présent */
+  }
+  
+  
+  

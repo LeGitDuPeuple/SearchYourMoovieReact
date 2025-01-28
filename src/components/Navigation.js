@@ -6,9 +6,7 @@ const Navigation = () => {
         <div className="titre">
             <h1>SearchYourMovie</h1>
         </div>
-        <div className="btnCherche">
-            <input type="text" />
-        </div>
+       
       </div>
     );
 };

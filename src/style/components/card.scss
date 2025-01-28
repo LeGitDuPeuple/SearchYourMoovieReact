@@ -1,0 +1,25 @@
+// .cardContaine{
+//     display: flex
+// }
+.cardMovie{
+    border: 0.4px solid whitesmoke;
+    border-radius: 15px;
+    background:$color2;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
+    width: 200px;
+
+    img{
+      height: 200px;
+      width: 180px;
+      border-radius: 15px;
+    }
+
+    p{
+        margin: 5px;
+    }
+}

@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+// variable 
+$font1: "Roboto", serif;
+$color1 : rgb(223, 27, 27);
+$color2: rgb(28, 28, 28);
 body {
-    background: red;
+    font-family: $font1;
+}
+
+body{
+    background: $color2;
+    margin: 0px;
 }
